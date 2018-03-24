@@ -1,3 +1,10 @@
+# this script will create a movie from images
+
+# how to call this function:
+# in a terminal write the following:
+# python video.py ./drive
+# drive is the folder were the images are stored
+
 from moviepy.editor import ImageSequenceClip
 import argparse
 import os

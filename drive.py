@@ -1,3 +1,11 @@
+# this script will run the trained model in the simulator
+# if a folder is provided it will also save the images of the race
+
+# in order to record:
+# in an open terminal:
+# python drive.py model.h5 ./drive
+# drive is the folder to same images
+
 import argparse
 import base64
 from datetime import datetime
